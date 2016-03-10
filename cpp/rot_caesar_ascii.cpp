@@ -18,13 +18,13 @@ string rot(string input) {
 
     while(index != inputSize) {
         if(input[index] >= LOWER_A && input[index] <= LOWER_M)
-            input[index] = input[index] + 1;
+            input[index] = input[index] + 4;
         else if(input[index] >= LOWER_N && input[index] <= LOWER_Z)
-            input[index] = input[index] - 1;
+            input[index] = input[index] - 4;
         else if(input[index] >= UPPER_A && input[index] <= UPPER_M)
-            input[index] = input[index] + 1;
+            input[index] = input[index] + 4;
         else if(input[index] <= UPPER_N && input[index] <= UPPER_Z)
-            input[index] = input[index] - 1;
+            input[index] = input[index] - 4;
 
         index++;
     }
