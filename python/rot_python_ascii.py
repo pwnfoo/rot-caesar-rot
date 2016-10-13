@@ -2,7 +2,7 @@
 
 
 def getinput():
-	rawstr = raw_input("Enter the plaintext : ")  #Not really required, just for the sake of it.
+	rawstr = raw_input("Enter the plaintext  to continue : ")  #Not really required, just for the sake of it.
 	return rawstr
 
 def rot(rawstr):
